@@ -1,0 +1,25 @@
+#################
+WordPress Robots.TXT
+
+https://github.com/timoburmeister/wordpress-robots-txt
+#################
+
+# Disallowed and allowed directories and files
+ 
+User-agent: *
+Disallow: /wp-admin/
+Disallow: /wp-content/
+Disallow: /wp-includes/
+Disallow: /comment-page-
+Disallow: /trackback/
+Disallow: /xmlrpc.php
+Disallow: /feed/
+Allow: /wp-content/uploads/
+ 
+# Define website sitemaps
+ 
+Sitemap: http://www.example.com/sitemap_index.xml
+Sitemap: http://www.example.com/post-sitemap.xml
+Sitemap: http://www.example.com/page-sitemap.xml
+Sitemap: http://www.example.com/category-sitemap.xml
+Sitemap: http://www.example.com/author-sitemap.xml
