@@ -23,5 +23,5 @@ Disallow: /trackback/
 Disallow: /xmlrpc.php
 
 Allow: /wp-content/uploads/
-Allow: /*.js$
-Allow: /*.css$
+Allow: /*.js
+Allow: /*.css
